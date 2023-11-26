@@ -1,0 +1,29 @@
+public class Test {
+
+           public int t = 4;
+
+           public static void main (String [] args) {
+
+                      new Test().NumberPlay();
+
+           }
+
+ 
+
+           public void NumberPlay() {
+
+                      int t = 2;
+
+                      t = t + 5;
+
+                      this.t = this.t - 2;
+
+                      t = t - this.t;
+
+                      System.out.print(t + " ");
+
+                      System.out.println(this.t);
+
+            }
+
+}
