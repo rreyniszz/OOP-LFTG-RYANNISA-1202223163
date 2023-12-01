@@ -3,7 +3,7 @@ public class FRIExpress extends Ekspedisi {
     protected boolean pecahBelah;
 
     // TO DO: Create Constructor of FRIExpress
-    public FRIExpress(int jumlahCabang, String pusat, float tarif) {
+    public FRIExpress(int jumlahCabang, String pusat, float tarif, boolean pecahBelah) {
         super(jumlahCabang, pusat, tarif);
         this.pecahBelah = pecahBelah;
     }

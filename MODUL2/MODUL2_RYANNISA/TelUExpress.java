@@ -3,7 +3,7 @@ public class TelUExpress extends Ekspedisi {
     protected boolean antarInter;
 
     // TO DO: Create Constructor of TelUExpress
-    public TelUExpress(int jumlahCabang, String pusat, float tarif) {
+    public TelUExpress(int jumlahCabang, String pusat, float tarif, boolean antarInter) {
         super(jumlahCabang, pusat, tarif);
         this.antarInter = antarInter;
     }
