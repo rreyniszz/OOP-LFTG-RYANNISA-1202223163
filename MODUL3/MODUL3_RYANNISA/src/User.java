@@ -1,8 +1,8 @@
 public class User {
    private String nama;
-   private String phoneNumber;
+   private long phoneNumber;
 
-   public User(String nama, String phoneNumber) {
+   public User(String nama, long phoneNumber) {
       this.nama = nama;
       this.phoneNumber = phoneNumber;
 
@@ -10,8 +10,8 @@ public class User {
 
    // TO DO: Create register Method to show information about name and phone number
    public void register() {
-      System.out.println("Name: " + nama);
-      System.out.println("Phone Number: " + phoneNumber);
+      System.out.println("Nama: " + nama);
+      System.out.println("No Handphone: " + phoneNumber);
    }
    // TO DO: Create method to return name and phone number
 
@@ -19,7 +19,7 @@ public class User {
       return nama;
    }
 
-   public String getnoHandPhone() {
+   public long getnoHandPhone() {
       return phoneNumber;
    }
 }
